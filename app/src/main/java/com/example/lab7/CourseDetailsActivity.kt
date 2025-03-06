@@ -41,7 +41,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.lab7.ui.theme.FireBase2Theme
+import com.example.lab7.ui.theme.Lab7Theme
 import com.google.firebase.firestore.FirebaseFirestore
 
 class CourseDetailsActivity : ComponentActivity() {
@@ -51,7 +51,7 @@ class CourseDetailsActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FireBase2Theme {
+            Lab7Theme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

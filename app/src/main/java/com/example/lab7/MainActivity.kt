@@ -36,7 +36,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.lab7.ui.theme.FireBase2Theme
+import com.example.lab7.ui.theme.Lab7Theme
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FireBase2Theme {
+            Lab7Theme {
                 Surface(
                     modifier = Modifier,
                     color = MaterialTheme.colorScheme.background
